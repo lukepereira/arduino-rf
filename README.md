@@ -1,6 +1,7 @@
-# WirelessA2b
-Wireless Anti-two-block detection with HC-12 and Arduino Nano
+# ArduinoRadioFrequency
+Secure and robust radio frequency communincation between two Arduino Nano boards used for general detection of signal or malfuctions. 
 
+Currently being applied to detect Anti-two-blocking malfunction in hydraulic lift system.
 
 Transmitter:
 - Wake from powered down sleep on Boom movement 
@@ -8,7 +9,6 @@ Transmitter:
 - Send serial update immediately when A2B pin high
 - Powered down sleep after 20 mins of inactivity 
 - Level Interrupt wakes when boom movement sensor high
-
 
 Reciever:
 - Power-ON/Wake up with push-button 
